@@ -4,13 +4,15 @@ public class Rectangle {
     private double surfaceArea;
     private double circumference;
 
-    public void setA(double a){
+    public void   setA(double a){
         this.a = a;
     }
+    public double getA(){return a; }
 
-    public void setB(double b){
+    public void   setB(double b){
         this.b = b;
     }
+    public double getB(){ return b; }
 
     public double getSurfaceArea(){
         return surfaceArea;

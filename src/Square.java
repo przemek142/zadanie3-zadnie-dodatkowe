@@ -3,9 +3,8 @@ public class Square {
     private double surfaceArea;
     private double circumference;
 
-    public void setA(double a){
-        this.a = a;
-    }
+    public void   setA(double a){ this.a = a; }
+    public double getA(){ return a;}
 
     public double getSurfaceArea(){
         return surfaceArea;

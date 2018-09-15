@@ -7,21 +7,22 @@ public class Triangle {
     private double surfaceArea;
     private double circumference;
 
-    public void setBase(double base){
+    public void   setBase(double base){
         this.base = base;
     }
+    public double getBase(){ return base; }
 
     public void setH(double h){
         this.h = h;
     }
 
-    public void setB(double b){
+    public void   setB(double b){
         this.b = b;
     }
+    public double getB(){return b; }
 
-    public void setC(double c){
-        this.h = c;
-    }
+    public void   setC(double c){ this.h = c; }
+    public double getC(){ return c; }
 
     public double getSurfaceArea(){
         return surfaceArea;
@@ -30,7 +31,6 @@ public class Triangle {
     public double getCircumference(){
         return circumference;
     }
-
 
     public void calcSurfaceArea(){
         surfaceArea = 0.5 * base * h;
